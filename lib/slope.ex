@@ -1,0 +1,2 @@
+defmodule Slope do
+end
