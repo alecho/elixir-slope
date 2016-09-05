@@ -1,24 +1,14 @@
 # Slope
 
-**TODO: Add description**
+Given an array of 4 integers
+[a,b,c,d] representing two points (a, b) and (c, d), return the slope of the line joining these two points.
+
+For an undefined slope (division by 0), return `:undefined`.
+
+Assume that [a,b,c,d] and the answer are all integers (no floating numbers!). Slope: https://en.wikipedia.org/wiki/Slope
+
+Modified from [CodeWars](https://www.codewars.com/kata/55a75e2d0803fea18f00009d)
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add `slope` to your list of dependencies in `mix.exs`:
-
-    ```elixir
-    def deps do
-      [{:slope, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `slope` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:slope]]
-    end
-    ```
-
+Clone this repository and run `mix deps.get`
