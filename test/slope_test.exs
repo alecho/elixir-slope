@@ -10,6 +10,7 @@ defmodule SlopeTest do
     assert calc([15,45,12,60]) == -5
     assert calc([10,20,20,80]) == 6
     assert calc([-10,6,-10,3]) == :undefined
+    assert calc([4,0.5,3.75,1.5]) == -4.0
   end
 
   test "more tests" do
