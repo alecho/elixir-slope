@@ -1,7 +1,9 @@
 defmodule Slope do
 
+  def calc([x1, _, x2, _]) when x1 == x2, do: :undefined
+
   def calc([x1, y1, x2, y2]) do
-    if x2 - x1 == 0, do: :undefined, else: div(y2 - y1, x2 - x1)
+    div(y2 - y1, x2 - x1)
   end
 
 end
