@@ -5,12 +5,8 @@ defmodule SlopeTest do
 
   test "basic tests" do
     assert calc([19,3,20,3]) == 0
-    assert calc([2,7,4,-7]) == -7
-    assert calc([10,50,30,150]) == 5
     assert calc([15,45,12,60]) == -5
     assert calc([10,20,20,80]) == 6
-    assert calc([-10,6,-10,3]) == :undefined
-    assert calc([4,0.5,3.75,1.5]) == -4.0
   end
 
   test "more tests" do
